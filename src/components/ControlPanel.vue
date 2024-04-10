@@ -16,7 +16,7 @@
     >
       <color-picker
         id="cpv3"
-        defaultColor="#ffffff"
+        defaultColor="#000000"
         @change="colorChange"
       />
     </ControlBtn>
@@ -28,11 +28,6 @@ import ControlBtn from "./ControlBtn.vue";
 export default {
   name: "ControlPanel",
   components: { ControlBtn },
-  data() {
-    return {
-      color: "#ffffff"
-    }
-  },
   methods: {
     colorPickerClick() {
       document.getElementById("cpv3").children[0].click();
