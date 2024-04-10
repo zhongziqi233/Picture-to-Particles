@@ -1,2 +1,2 @@
-# Picture to Active Particle
-turn picture to active particle which could response mouse event.
+# Picture to Active Particles
+Turn picture into active particles which could response mouse event.
